@@ -15,9 +15,7 @@ DESCRIPTION
         for Rank Comparison and Aggregation, F. Farnoud,
         and O. Milenkovic, IEEE Trans. Information Theory, Oct. 2014.
 USAGE 1:
-        STree_LZF -f input-file
-USAGE 2:
-        STree_LZF n -p1 first_ranking [-p2 second_ranking] -w weight_function (NOT IMPLEMENTED YET)
+        WeightedKendallDistance -f input-file
 NOTES:
-        If With -f input, the first line is n (the length of the rankings), the second line is p1,
+        With -f input, the first line is n (the length of the rankings), the second line is p1,
         the third line is p2, the fourth line is w.
