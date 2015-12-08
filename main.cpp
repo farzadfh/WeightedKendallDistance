@@ -3,7 +3,7 @@
 
 // Gives the weighted Kendall distance between two rankings. 
 // Based on An Axiomatic Approach to Constructing Distances for Rank Comparison and Aggregation,
-// F. Farnoud, and O. Milenkovic, IEEE Trans. Information Theory, vol. 60, pp. 6417–6439, Oct. 2014.
+// F. Farnoud, and O. Milenkovic, IEEE Trans. Information Theory, vol. 60, pp. 6417â€“6439, Oct. 2014.
 
 #include "weightedkendall.h"
 #include <fstream>
@@ -33,11 +33,11 @@ int main(int argc, char **argv){
 				cout<<"\tBased on An Axiomatic Approach to Constructing Distances\n\tfor Rank Comparison and Aggregation, F. Farnoud,\n";
 				cout<<"\tand O. Milenkovic, IEEE Trans. Information Theory, Oct. 2014.\n";
 				cout<<"USAGE 1: \n";
-				cout<<"\tSTree_LZF -f input-file\n" << flush;
-				cout<<"USAGE 2: \n";
-				cout<<"\tSTree_LZF n -p1 first_ranking [-p2 second_ranking] -w weight_function (NOT IMPLEMENTED YET)" << flush;
+				cout<<"\tWeightedKendallDistance -f input-file\n" << flush;
+				//cout<<"USAGE 2: \n";
+				//cout<<"\tWeightedKendallDistance n -p1 first_ranking [-p2 second_ranking] -w weight_function (NOT IMPLEMENTED YET)" << flush;
 				cout<<"\nNOTES:\n";
-				cout<<"\tIf With -f input, the first line is n (the length of the rankings), the second line is p1, \n\tthe third line is p2, the fourth line is w.\n";
+				cout<<"\tWith -f input, the first line is n (the length of the rankings), the second line is p1, \n\tthe third line is p2, the fourth line is w.\n";
 				cout<<"\n";
 				return 0;
 			} else if (arg == "-f") {
