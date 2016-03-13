@@ -1,5 +1,5 @@
 Compute the weighted Kendall distance (no ties) in O(n lg n)
-By F. Farnoud, July 2914
+By F. Farnoud, July 2014
 
 Gives the weighted Kendall distance between two rankings. 
 Based on An Axiomatic Approach to Constructing Distances for Rank Comparison and Aggregation, F. Farnoud, and O. Milenkovic, IEEE Trans. Information Theory, Oct. 2014.
